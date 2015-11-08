@@ -2,6 +2,7 @@
 ####Потребуется
 * [Raspberry Pi Model B+ V 1.2](https://www.raspberrypi.org/products/model-b-plus/)
 * [Camera module for Raspberry Pi](https://www.raspberrypi.org/products/camera-module/)
+* USB-модем ZTE MF831
 * [Arduino UNO Rev.3](https://www.arduino.cc/en/Main/ArduinoBoardUno)
 * Электромагнитное реле ([hrs4h-s-dc5v](http://www.comsel.it/risorse/0013901.pdf))
 * Блок питания 5V 2A
