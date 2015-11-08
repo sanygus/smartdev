@@ -15,6 +15,9 @@
   * Много проводов :)
 
 ####Схема
-123
+Схема подготовлена в [Fritzing](http://fritzing.org/)
+![scheme](https://raw.githubusercontent.com/sanygus/smartdev/master/hardware/scheme.png)
+[Скачать Fritzing Sketch](/sanygus/smartdev/blob/master/hardware/scheme.fzz?raw=true)
+
 
 
