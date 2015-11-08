@@ -8,6 +8,6 @@
 
 Чтобы построить такое же устройство, нужно выолнить 3 шага:
 
-1. [Железо](https://github.com/sanygus/smartdev/tree/master/hardware). Првильно собрать схему.
-2. ОС. Сконфигурироавть Raspbian.
-3. ПО. Использовать ПО.
+1. [**Hardware**](https://github.com/sanygus/smartdev/tree/master/hardware). Првильно собрать схему.
+2. **Software-OS**. Сконфигурироавть Raspbian.
+3. **Software**. Использовать ПО.
