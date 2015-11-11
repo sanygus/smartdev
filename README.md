@@ -10,4 +10,4 @@
 
 1. [**Hardware**](https://github.com/sanygus/smartdev/tree/master/hardware). Првильно собрать схему.
 2. **Software-OS**. Сконфигурироавть Raspbian.
-3. []**Software**](https://github.com/sanygus/smartdev/tree/master/software). Использовать ПО.
+3. [**Software**](https://github.com/sanygus/smartdev/tree/master/software). Использовать ПО.
