@@ -5,8 +5,8 @@
 2. Подключить Arduino UNO через USB
 3. Открыть [Sketch](https://github.com/sanygus/smartdev/tree/master/software/arduino/sketch.ino) в Arduino IDE
 4. Настроить Arduino IDE:
-4.1. Инструменты -> Плата -> Arduino UNO
-4.2. Инструменты -> Порт -> [COMxx] (для Windows: можно определить в Диспетчере устройств)
+  1. Инструменты -> Плата -> Arduino UNO
+  2. Инструменты -> Порт -> [COMxx] (для Windows: можно определить в Диспетчере устройств)
 5. Файл -> Вгрузить (Ctrl+U)
 
 ####Веб-интерфейс ([www](https://github.com/sanygus/smartdev/tree/master/software/www))
