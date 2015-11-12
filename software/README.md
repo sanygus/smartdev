@@ -1,6 +1,7 @@
-##Software
+﻿##Software
 ####[Arduino](https://github.com/sanygus/smartdev/tree/master/software/arduino)
 **Не для Raspberry Pi, на отдельном компьютере**
+
 1. Установить [Arduino IDE](https://www.arduino.cc/en/Main/Software) (>=1.6.6)
 2. Подключить Arduino UNO через USB
 3. Открыть [Sketch](https://github.com/sanygus/smartdev/tree/master/software/arduino/sketch.ino) в Arduino IDE
