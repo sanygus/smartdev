@@ -19,9 +19,5 @@
 ####Общение с Arduino ([python](https://github.com/sanygus/smartdev/tree/master/software/python))
 Python скрипт *c.py* общается с arduino и выполняет необходимые комманды.
 
-*voff.var* - значение вольтажа для отключения
-
-*von.var* - значение вольтажа для включения (после отключения)
-
-####Arduino
-Sketch
+* *voff.var* - значение вольтажа для отключения
+* *von.var* - значение вольтажа для включения (после отключения)
