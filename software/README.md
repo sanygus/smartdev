@@ -1,4 +1,4 @@
-﻿##Software
+##Software
 ####[Arduino](https://github.com/sanygus/smartdev/tree/master/software/arduino)
 **Не для Raspberry Pi, на отдельном компьютере**
 
