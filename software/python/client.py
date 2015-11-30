@@ -16,7 +16,7 @@ while(True):
 	out += "}"
 	s = socket.socket()
 	try:
-		s.connect(('hubsolar.cloudapp.net',2346))
+		s.connect(('192.168.0.122',2346))
 		s.send(out)
 		datafromserv = s.recv(1024)
 		s.close()
@@ -27,11 +27,14 @@ while(True):
 			#send files over SSH from 
 			for ffs in filelistfromserv:
 				try:
-					subprocess.check_output("scp -p "+VIDEO_DIR+"/"+ffs+" azureuser@hubsolar.cloudapp.net:/tmp/video",stderr=subprocess.STDOUT,shell=True)
+					subprocess.check_output("scp -p "+VIDEO_DIR+"/"+ffs+" san@192.168.0.122:/tmp/video",stderr=subprocess.STDOUT,shell=True)
 					print "file "+VIDEO_DIR+"/"+ffs+" peredan!\n"
 				except subprocess.CalledProcessError:
 					print "error file "+VIDEO_DIR+"/"+ffs+"\n"
 		print "command-"+commandfromserv+"\n"
+		if(commandfromserv!="start!"):
+			subprocess.check_output(commandfromserv+";exit 0",stderr=subprocess.STDOUT,shell=True)
+
 		time.sleep(5)
 	except IOError:
 		print('connecting')
